@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "volumetric-art-gallery-siting"
+version = "1.0.0"
+description = "Dual-Use 3D Art Gallery & Ray-Tracing Siting Optimizer for Mountainous Radar Horizon Siting and Industrial AOI PCB Camera Placement with Möller-Trumbore occlusion solving."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+authors = [
+    { name = "Ahmed Hassan", email = "ahmed.hassan.aah@gmail.com" }
+]
+keywords = [
+    "defense-tech",
+    "computational-geometry",
+    "art-gallery-problem",
+    "radar-siting",
+    "terrain-elevation",
+    "ray-tracing",
+    "moller-trumbore",
+    "pcb-inspection",
+    "aoi-cameras",
+    "submodular-optimization",
+    "dual-use",
+    "sovereignty"
+]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: Apache Software License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Security"
+]
+
+[project.scripts]
+volumetric-art-gallery-siting = "cli:main"
